@@ -2,11 +2,12 @@
 By Varuni Saxena
 
 ### Live URL: 
-* https://varunis.github.io/projects/SFMuni/
+* http://varunis.com/projects/SFMuni/
 
 ### Run on dev:
 * Download, run `http-server`, and browse to `localhost:port`.
-```git clone https://varunis.github.io/projects/SFMuni/ .
+```
+git clone https://varunis.github.io/projects/SFMuni/ .
 cd SFMuni
 # required for local assets.
 http-server
@@ -36,6 +37,7 @@ http-server
 * Map recentering on zoom-out.
 
 #### Technical:
+* Supoort HTTPS. Use proxy to re-direct data from http://webservices.nextbus.com.
 * Convert to AngularJS project with npm dependencies and webpack module bundler.
 * Unit tests and end-to-end test using Karma, Jasmine, and Protractor.
 * Use of CSS pre-processor such as sass.
