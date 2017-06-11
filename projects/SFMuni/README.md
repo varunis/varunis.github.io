@@ -18,16 +18,16 @@ http-server
 * `http-server` is required because map assets are local. Install using `npm install http-server`.
 
 ### Features:
-* Zoomable map with neighborhoods and streets view
-* Live refresh every 15 seconds
-* Multi selectable dropdown with search option
-* Selected dropdown options can display 1 to n route options at a time
-* Diffrent colored route and vehicles
-* Matching route and vehicle colors
-* Tooltip on mouseover for each vehicle displaying the route tag, speed, and last update
+* Zoomable map with neighborhoods and streets view.
+* Live refresh every 15 seconds.
+* Multi selectable dropdown with search option.
+* Selected dropdown options can display 1 to n route options at a time.
+* Diffrent colored route and vehicles.
+* Matching route and vehicle colors.
+* Tooltip on mouseover for each vehicle displaying the route tag, speed, and last update.
 
 ### Notes:
-* Tested on latest version of chrome v58.0.3029.110
+* Tested on latest version of chrome v58.0.3029.110.
 * I was able to inject d3js into AngularJS. However, I had started the current project with standard jQuery and d3js. Moving this project purely in AngularJS would require a bit more time (I only had the weekend to work on this).
 
 ### Future Work:
