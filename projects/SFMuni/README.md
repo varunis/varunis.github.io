@@ -6,6 +6,7 @@ By Varuni Saxena
 
 ### Run on dev:
 * Download, run `http-server`, and browse to `localhost:port`.
+
 ```
 git clone https://varunis.github.io/projects/SFMuni/ .
 cd SFMuni
@@ -13,6 +14,7 @@ cd SFMuni
 http-server
 # browse to localhost:port displayed.
 ```
+
 * `http-server` is required because map assets are local. Install using `npm install http-server`.
 
 ### Features:
