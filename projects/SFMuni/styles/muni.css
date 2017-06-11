@@ -1,0 +1,86 @@
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+path {
+    fill: none;
+    stroke: #000;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}
+
+.row {
+    min-width: 410px;
+}
+.artery {
+    stroke: #ccb;
+    fill: none;
+}
+
+.freeway {
+    stroke: #f39;
+    stroke-width: 1.5px;
+    fill: none;
+}
+
+.street {
+    stroke: #7de;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.neighborhood {
+    stroke: #000;
+}
+
+.route {
+    stroke: #776;
+    cursor: pointer;
+}
+
+.vehicle {
+    z-index: 1000000;
+    cursor: pointer;
+}
+.vehicle:hover {
+    fill: red;
+}
+
+.selectpickerContainer {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-weight: bold;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
+
+svg {
+    pointer-events: all;
+}
